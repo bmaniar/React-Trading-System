@@ -1,0 +1,400 @@
+
+#loginButton {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#loginBackground {
+    background-color: #C0BBC5;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 100%;
+    width: 100%;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+
+.traderDesktop {
+    border-bottom: 1px solid black;
+    /*width: 100%;*/
+    
+    padding-right: 10px;
+    height: 50px;
+    font-family: Arial;
+}
+
+.headerDiv{
+    border-bottom: 1px solid black;
+    height: 35px;
+}
+
+#headerUserName {
+    font-size: 16px;
+    font-style: italic;
+}
+#headerUserNameXs{
+    font-size: 16px;
+    font-style: italic;
+}
+#headerRow {
+    font-size: 16px;
+    padding: 5px;
+}
+.headerTitle{
+    font-size:16px;
+}
+.headerTitleXs{
+    font-size:10px;
+    display:inline !important;
+    
+}
+#signOut {
+    font-size: 12px;
+    color: #0000ff;
+    padding: 4px 0px 0px 10px;
+}
+.react-d3-core__container_svg{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.traderTaskbarButton {
+    height: 25px;
+    color: white;
+    /*background-color: black;*/
+    margin: 5px;
+    
+    margin-right: -2px;
+    margin-left: 7px;
+}
+
+.tableHeader {
+    background-color: gray;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.navButton {
+    height: 25px;
+      background-color: black;
+      margin: 5px;
+  }
+
+.navButton-black {
+    height: 25px;
+    background-color: black;
+    margin: 5px;
+    margin-left:-7px;
+    margin-right:15px;
+}
+
+.navButton-black:focus {
+    filter:invert(100%);
+}
+
+
+
+.nav-image-black{
+        filter: invert(100%);
+}
+
+#creationTimeId {
+    display: inline-block;
+}
+
+.test-legend-class{
+    padding-left: 0px;
+    display: inline;
+    margin-top: 5px;
+    width:100%;
+    background-color:rgba(247, 166, 166, 0.39);
+    
+}
+.legendDiv{
+     margin-top: 50px;
+     margin-left: 50px;
+     
+}
+.chartDiv{
+    background-color:rgba(162, 148, 106, 0.4);
+    height:100%;
+    min-height: 650px;
+    position:relative;
+    
+}
+.ContainerForTable{
+    margin-top: 83px;
+    background-color: rgba(2,2,2,0.7);
+    border-radius: 30px;
+}
+
+.quantityDiv{
+    height: 49px;
+}
+.traderTable{
+    /*background-color: rgba(2,2,2,0.7);*/
+    opacity: 0.8;
+    color:rgba(0,0,0,0.7);
+}
+.react-bs-table{
+    width:100%;
+}
+.react-bs-table-container{
+   margin-left:-10px
+}
+#image-table-toggle{
+        filter: invert(100%);
+}
+.react-redux-modal .rrm-holder .scroll {
+    /*width: 80%;*/
+}
+
+.react-redux-modal .rrm-holder .scroll .rrm-content.m-medium {
+  width: 100%;
+  max-width: 500px;
+}
+.react-redux-modal .rrm-holder .scroll .rrm-content .rrm-title .rr-title-actions {
+  width: 0px;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+.modal-btn{
+    margin:5px;
+}
+.modal-buttonDiv{
+    margin-top:10px;
+    border-top: 1px solid #c0c0c0;
+    padding-top:10px;
+}
+
+.react-d3-basic__bar_stack_horizontal bar{
+        height: 10px;
+}
+
+/* notification */
+
+.dropdown-toggle{
+        margin-left: 18px;
+    margin-top: 22px;
+}
+
+.notification-container {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  width: 320px;
+  padding: 0 15px;
+  max-height: calc(100% - 30px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.notification {
+  box-sizing: border-box;
+  padding: 15px 15px 15px 58px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #ccc;
+  box-shadow: 0 0 12px #999;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 1.2em;
+  position: relative;
+  opacity: 0.9;
+  margin-top: 15px;
+}
+
+.notification .title {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.notification:hover, .notification:focus {
+  opacity: 1;
+}
+
+.notification-enter {
+  visibility: hidden;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.notification-enter.notification-enter-active {
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.4s;
+}
+
+.notification-leave {
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+}
+
+.notification-leave.notification-leave-active {
+  visibility: hidden;
+  transform: translate3d(-100%, 0, 0);
+  transition: all 0.4s;
+}
+
+.notification:before {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -14px;
+  display: block;
+  font-family: 'Notification';
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.notification-info {
+  background-color: #2f96b4;
+}
+
+.notification-info:before {
+  content: "\f05a";
+}
+
+
+.notification-success {
+  background-color: #51a351;
+}
+
+.notification-success:before {
+  content: "\f058";
+}
+
+.notification-warning {
+  background-color: #f89406;
+}
+
+.notification-warning:before {
+  content: "\f06a";
+}
+
+.notification-error {
+  background-color: #bd362f;
+}
+
+.notification-error:before {
+  content: "\f057";
+}
+.Executed{
+    background-color:rgba(7, 171, 12, 0.48)!important;
+}
+.Placed{
+    background-color: rgba(226, 239, 32, 0.6)!important
+}
+.New{
+    background-color: rgba(152, 7, 14, 0.53)!important
+}
+
+.legend {
+    background-color:rgba(247, 166, 166, 0) !important;
+    
+}
+    
+        .chart:hover svg {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
+        
+        svg {
+            transition: all 0.5s;
+        }
+
+
+
+@media(max-width:480px){
+    .react-d3-core__legend{
+        display: inline;
+        width: 100%;
+        margin-left: 110px;
+        float:left;
+    }
+
+    .chartTitle{
+        margin-right:10px; 
+        float: left;
+        display: inline;
+    }
+    .legendDiv{
+        display: inline-block;
+    }
+
+    #headerUserName {
+        font-size: 12px;
+        font-style: italic;
+    }
+    .headerTitle{
+        font-size:12px;
+    }
+
+    .legend{
+        width:110px !important;
+       margin-left:100px;
+       
+    }
+
+    .chartDivTitle{
+    position:absolute;
+
+    font-size: 14px;
+    /*font-weight: 8;*/
+   top:0px;
+    left:20px;
+}
+
+}
+@media (min-width:992px) and (max-width:1180px){
+    .legend{
+        width:120px !important;
+       margin-left:0px;
+    }
+      .legendDiv{
+        display: inline-block;
+        margin-left:120px;
+    }
+}
+@media (min-width:320px) and (max-width:345px) {
+    .searchTextFilter{
+        margin-left:0px !important; 
+        width:100% !important;
+    }
+    .searchFilterTable{
+        width:100% !important;
+    }
+  
+}
+
+@media (min-width:346px) and (max-width:495px) {
+    .searchTextFilter{
+        margin-left:0px !important; 
+        width:100% !important;
+    }
+    .searchFilterTable{
+        width:100% !important;
+    }
+}
+
