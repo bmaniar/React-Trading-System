@@ -16,12 +16,8 @@ app.use(require('webpack-hot-middleware')(compiler));
 app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
+app.set('port', (process.env.PORT || 7777));
 
-app.listen(7777, 'localhost', function(err) {
-  if (err) {
-    console.log(err);
-    return;
-  }
-
-  console.log('Listening at http://localhost:7777');
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
 });
