@@ -4,9 +4,9 @@ import { Provider } from 'react-redux';
 import { Router, Route, IndexRoute,hashHistory, browserHistory } from "react-router";
 
 import configureStore from '../store/configureStore';
-import App from '../components/app';
+import App from '../components/App';
 
-import {LoginComponent} from '../components/Login/Login.component';
+import {LoginComponent} from '../components/login/Login.component';
 import TraderDesktopComponent from '../components/TraderDesktop/TraderDesktop.component'
 
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
