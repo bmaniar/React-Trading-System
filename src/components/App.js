@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { ordersFetchData, usersFetchData , loginUser ,instrumentsFetchData , pushNotification} from '../actions/actions';
-import {LoginComponent} from './Login/Login.component';
+import {LoginComponent} from './login/Login.component';
 import  '../styles/common.css';
 import '../styles/login.css';
 
