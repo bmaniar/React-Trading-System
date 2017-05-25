@@ -16,15 +16,15 @@
 
 ### [Demo](http://fathomless-journey-72146.herokuapp.com)
 
-### Technology Used
+### Technology Used  
   1.React  
-  2.Redux
+  2.Redux  
   3.Firebase Authenticatiom  
   4.Webpack Bundling Tool  
   5.Mui Themes  
   6.Bootstarp Framework  
   
-### Folder Structure Explained
+### Folder Structure Explained  
   1. The config files (webpack and node server) : All are on the main directory  
   2. The Javascript files (ReactJS Components)  : All components are inside ```src/components``` 
   3. The Route files (ReactJS Routes)           : All routes are inside ```src/route``` 
