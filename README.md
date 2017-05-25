@@ -17,12 +17,12 @@
 ### [Demo](http://fathomless-journey-72146.herokuapp.com)
 
 ### Technology Used
-  1.React
-  2.Redux
-  3.Firebase Authenticatiom
-  4.Webpack Bundling Tool
-  5.Mui Themes
-  6.Bootstarp Framework
+  1.React__
+  2.Redux__
+  3.Firebase Authenticatiom__
+  4.Webpack Bundling Tool__
+  5.Mui Themes__
+  6.Bootstarp Framework__
   
 ### Folder Structure Explained
   1. The config files (webpack and node server) : All are on the main directory  
