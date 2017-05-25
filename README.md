@@ -14,7 +14,8 @@
 3. Go to ```locahost:7777``` in your browser. If the installation was fine, you should be able to see the landing page.
 
 
-### [Demo](http://fathomless-journey-72146.herokuapp.com)
+### [Demo](http://fathomless-journey-72146.herokuapp.com) 
+#### Credentials : Trader : Elton John , Password: eltonjohn
 
 ### Technology Used  
   1.React  
