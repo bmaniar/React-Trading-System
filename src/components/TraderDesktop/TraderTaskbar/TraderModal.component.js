@@ -31,7 +31,7 @@ export default class myModalComopnent extends React.Component {
       <div className="pull-left">
       
         <div>
-        <label for="inputTrade">Enter number of trades</label>
+        <label for="inputTrade">Enter number of trades[Between 1-10]</label>
         </div>
         <div className="col-xs-12">
         <input className type="text" id="inputTrade" ref="targetvalue"></input>
