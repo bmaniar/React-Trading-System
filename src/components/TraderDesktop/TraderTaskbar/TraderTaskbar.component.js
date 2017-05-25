@@ -171,7 +171,7 @@ export default class TraderTaskbarComponent extends React.Component {
                     open={this.state.open}
                     onRequestClose={this.handleClose}
                 >
-                    Enter The No Of Trades < br />
+                    Enter The No Of Trades[Between 1-10] < br />
                     <TextField
                     floatingLabelText="Enter No Of Trades"
                     width="100px"
